@@ -6,8 +6,8 @@ content:
         by: default
         dir: asc
         custom:
-            - _activity
             - _about
+            - _activity
             - _inquiry
             
 form:
