@@ -10,6 +10,6 @@ Official repository for d2draft.net built with Grav
 
 ## テーマ
 
-`themes/d2draft/` 以下が本サイトのテーマになります。
+`user/themes/d2draft/` 以下が本サイトのテーマになります。
 
 [テーマドキュメント](http://learn.getgrav.org/themes)
