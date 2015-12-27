@@ -1,6 +1,6 @@
 # d2draft.net
 
-Official repository for d2draft.net built with Grav
+Official repository for d2draft.net built with [Grav](http://getgrav.org/)
 
 ## コンテンツ更新
 
