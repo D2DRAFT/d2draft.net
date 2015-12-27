@@ -1,0 +1,9 @@
+name: D2DRAFT
+version: 0.1
+description: "A theme for D2DRAFT"
+icon: empire
+author:
+  name: Takuro Hishikawa
+  email: hishikawa@notnil-creative.com
+  url: http://notnil-creative.com
+license: MIT

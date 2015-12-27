@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    {% if header.description %}
+    <meta name="description" content="{{ header.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
+    {% block stylesheets %}
+        {% do assets.add('theme://css/style.css',100) %}
+    {% endblock %}
+    {{ assets.css() }}
+    <link rel="shortcut icon" href="{{ theme_url }}/images/favicon.ico" type="image/x-icon" />
+    {% endblock head %}
+</head>
+<body>
+    {% include 'partials/header.html.twig' %}
+
+    <main role="main">
+        {% block content %}{% endblock %}
+    </main>
+    
+    {% include 'partials/social.html.twig' %}
+    {% include 'partials/footer.html.twig' %}
+    {% block bottom %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,28 @@
+<section id="{{ page.header.id }}">
+    <h2>{{ page.header.title }}</h2>
+    <div class="action_intro">
+        <div class="action_intro_inner">
+            {{ page.content }}
+        </div>
+        {% if page.header.thumbnails %}
+            {% for thumbnail in page.header.thumbnails %}
+            {{ page.media[thumbnail.src].html('', thumbnail.alt, 'action_photo') }}
+            {% endfor %}
+        {% endif %}
+        {% if page.header.more %}
+            {% for more in page.header.more %}
+            <a class="btn more" href="{{ more.url }}">{{ more.text }}</a>
+            {% endfor %}
+        {% endif %}
+        <p class="action_btn"><a href="https://d2draft.doorkeeper.jp/events/past"><span>過去の活動はこちら</span></a></p>
+    </div>
+    {% if page.header.reports %}
+    <h3>レポート</h3>
+    <dl>
+        {% for report in page.header.reports %}
+        <dt>{{ report.date|date('Y年n月j日') }}</dt>
+        <dd><a href="{{ report.url }}">{{ report.title }}<img src="{{ theme_url }}/images/icon_external.png" alt="別サイトに移動します。"></a></dd>
+        {% endfor %}
+    </dl>
+    {% endif %}
+</section>
