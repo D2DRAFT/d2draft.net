@@ -14,6 +14,12 @@ reports:
     - date: 2015/05/21
       url: http://www.pictron.net/2015/06/10/d2d-%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%A2%E3%83%B3%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9-vol-1-%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3/
       title: D2D ディレクション アンカンファレンス vol.1 ヒアリング
+    - date: 2015/06/26
+      url: http://white-stage.com/article.php/d2daccessibility6nd
+      title: 第6回 D2D アクセシビリティ勉強会でアクセシブルなフォームを作成
+    - date: 2015/11/23
+      url: http://blog.mismithportfolio.com/web/20151123d2d
+      title: 【イベントレポ】オマケ会 D2D アクセシビリティ勉強会 ～アクセシブルなCSSもやっとこう～に参加しました #d2draft
 ---
 
 ### 第6回 D2D アクセシビリティ勉強会
