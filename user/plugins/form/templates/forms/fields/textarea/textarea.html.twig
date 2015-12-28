@@ -1,11 +1,11 @@
-{% extends "forms/field.html.twig" %}
+﻿{% extends "forms/field.html.twig" %}
 
 {% block input %}
-    <div class="form-textarea-wrapper {{ field.size }}">
+    <div class="form-textarea-wrapper{{ field.size }}">
         <textarea
             class="{{ field.classes|default('input') }}"
-            id="{{ (scope ~ field.name)|fieldName }}"
             {# required attribute structures #}
+            id="{{ (scope ~ field.name)|fieldName }}"
             name="{{ (scope ~ field.name)|fieldName }}"
             {# input attribute structures #}
             {% block input_attributes %}
