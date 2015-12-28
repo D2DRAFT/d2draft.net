@@ -7,7 +7,7 @@
             <p id="{{ field.name }}">
             {{ field.label|default(field.name|capitalize)|t }}
             {{ field.validate.required == true ? '<span>必須</span>' }}
-            </label>
+            </p>
         {% else %}
             <label for="{{ field.name }}">
             {{ field.label|default(field.name|capitalize)|t }}
@@ -20,6 +20,7 @@
                     {# required attribute structures #}
                     name="{{ (scope ~ field.name)|fieldName }}"
                     value="{{ value|e('html_attr')|join(', ') }}"
+                    id="{{ field.name }}"
                     {# input attribute structures #}
                     {% block input_attributes %}
                         {% if field.classes is defined %}class="{{ field.classes }}" {% endif %}

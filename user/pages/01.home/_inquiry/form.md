@@ -1,5 +1,5 @@
 ---
-title: お問い合わせ
+title: お問合せ
 id: inquiry
 ---
 
