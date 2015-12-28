@@ -4,7 +4,7 @@
     <div class="form-textarea-wrapper {{ field.size }}">
         <textarea
             class="{{ field.classes|default('input') }}"
-
+            id="{{ field.name }}"
             {# required attribute structures #}
             name="{{ (scope ~ field.name)|fieldName }}"
             {# input attribute structures #}
