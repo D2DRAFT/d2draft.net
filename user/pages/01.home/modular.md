@@ -44,7 +44,6 @@ form:
         
         - name: inquiry_content
           id: inquiry_content
-          label: お問合わせ内容
           type: textarea
           validate:
             required: true
