@@ -1,5 +1,5 @@
 ---
-title: D<sup>2</sup>DRAFTってどんな勉強会？
+title: D2DRAFTってどんな勉強会？
 id: about
 ---
 
