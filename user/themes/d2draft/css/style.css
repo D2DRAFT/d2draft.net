@@ -66,6 +66,9 @@
 	a:focus {
 		background: #54b032;
 		color: #ffffff;
+	}
+
+	a:focus {
 		outline: 1px dotted #000000;
 	}
 
@@ -173,6 +176,7 @@
 		position: absolute;
 		top: 0;
 		right: 0;
+		margin: 0;
 		border: 0;
 	}
 
