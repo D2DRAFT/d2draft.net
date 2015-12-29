@@ -43,8 +43,8 @@ form:
             about_c: その他
         
         - name: inquiry_content
+          label: お問合せ内容
           id: inquiry_content
-          label: お問合わせ内容
           type: textarea
           validate:
             required: true

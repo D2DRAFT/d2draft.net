@@ -66,6 +66,7 @@
 	a:focus {
 		background: #54b032;
 		color: #ffffff;
+		outline: 1px dotted #000000;
 	}
 
 	input,
@@ -122,6 +123,7 @@
 		font-weight: 100;
 		text-align: center;
 		letter-spacing: 5px;
+		word-break: break-all;
 	}
 
 	h3 {
@@ -167,6 +169,12 @@
 		outline: 1px dotted #000000;
 	}
 
+	.github {
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: 0;
+	}
 
 /* Layout style */
 
@@ -440,6 +448,7 @@
 	aside ul li a:hover,
 	aside ul li a:focus {
 		opacity: 0.7;
+		background: transparent;
 	}
 
 	footer {
