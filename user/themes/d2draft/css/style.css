@@ -122,6 +122,7 @@
 		font-weight: 100;
 		text-align: center;
 		letter-spacing: 5px;
+		word-break: break-all;
 	}
 
 	h3 {
