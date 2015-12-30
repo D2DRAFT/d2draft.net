@@ -1,5 +1,6 @@
 ---
 cache_enable: false
+
 content:
     items: @self.modular
     order:
@@ -10,6 +11,19 @@ content:
             - _activity
             - _inquiry
             
+title: D2DRAFT "Dev &amp; Design Draft"
+description: ウェブのテクニカルな内容とデザイン的な内容を横断した、特定のプロダクトや技術に限定しない勉強会シリーズです。
+
+ogp:
+    - property: 'og:title'
+      content: D2DRAFT "Dev &amp; Design Draft"
+    - property: 'og:type'
+      content: site
+    - property: 'og:url'
+      content: http://d2draft.net/
+    - property: 'og:image'
+      content: d2dogp.png
+
 form:
     name: inquiry
     action: /
