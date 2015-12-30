@@ -18,7 +18,7 @@ ogp:
     - property: 'og:title'
       content: D2DRAFT "Dev &amp; Design Draft"
     - property: 'og:type'
-      content: site
+      content: website
     - property: 'og:url'
       content: http://d2draft.net/
     - property: 'og:image'
