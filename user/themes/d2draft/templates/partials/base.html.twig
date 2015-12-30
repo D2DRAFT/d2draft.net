@@ -4,7 +4,7 @@
     {% block head %}
     <meta charset="UTF-8">
     {% for ogp in page.header.ogp %}
-    <meta property="{{ ogp.property }}" content="{% if ogp.property == 'og:image' %}{{ page.media[ogp.content].url }}{% else %}{{ ogp.content }}{% endif %}" />
+    <meta property="{{ ogp.property }}" content="{% if ogp.property == 'og:image' %}{{ uri.base }}{{ page.media[ogp.content].url }}{% else %}{{ ogp.content }}{% endif %}" />
     {% endfor %}
     {% if header.description %}
     <meta name="description" content="{{ header.description }}">
