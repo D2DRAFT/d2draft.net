@@ -9,9 +9,10 @@ pages:
   process:
     markdown: true
     twig: false
+  last_modified: true
 
 cache:
-  enabled: true
+  enabled: false
   check:
     method: file
   driver: auto
