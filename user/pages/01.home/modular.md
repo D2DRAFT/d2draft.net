@@ -16,7 +16,7 @@ description: ウェブのテクニカルな内容とデザイン的な内容を�
 
 ogp:
     - property: 'og:title'
-      content: D2DRAFT "Dev &amp; Design Draft"
+      content: D2DRAFT &quot;Dev &amp; Design Draft&quot;
     - property: 'og:type'
       content: website
     - property: 'og:url'
