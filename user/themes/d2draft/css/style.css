@@ -464,28 +464,6 @@
 		line-height: 1;
 	}
 
-/* for max-width 640px */
-	@media only screen and (max-width: 640px) {
-		#events dl {
-			max-width: 100%;
-			margin-top: 49px;
-		}
-
-		#events dt {
-			width: 100%;
-		}
-
-		#events dd {
-			width: 100%;
-			padding-left: 0;
-		}
-		
-		.github {
-  		width: 25%;
-		}
-		
-	}
-
 /* for max-width 768px */
 	@media only screen and (max-width: 768px) {
 			section {
@@ -503,8 +481,9 @@
 			}
 
 			header ul li {
+				display: inline;
+				float: none;
 				width: 100%;
-				margin-top: 16px;
 			}
 
 			header ul li:first-child {
@@ -513,6 +492,7 @@
 
 			header ul a:link,
 			header ul a:visited {
+				margin-bottom: 1px;
 				border: none;
 			}
 
@@ -592,4 +572,26 @@
 			.radio_btn li:last-child {
 				margin-bottom: 12px;
 			}
+	}
+
+/* for max-width 640px */
+	@media only screen and (max-width: 640px) {
+		#events dl {
+			max-width: 100%;
+			margin-top: 49px;
+		}
+
+		#events dt {
+			width: 100%;
+		}
+
+		#events dd {
+			width: 100%;
+			padding-left: 0;
+		}
+		
+		.github {
+			width: 25%;
+		}
+		
 	}
