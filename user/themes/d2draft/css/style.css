@@ -479,6 +479,11 @@
 			width: 100%;
 			padding-left: 0;
 		}
+		
+		.github {
+  		width: 25%;
+		}
+		
 	}
 
 /* for max-width 768px */
