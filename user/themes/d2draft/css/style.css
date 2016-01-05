@@ -209,7 +209,7 @@
 		clear: both;
 		width: 100%;
 		margin-top: 74px;
-		padding-bottom: 133px;
+		padding: 0 10% 133px 10%;
 		background: url("../images/bg_line.png") repeat-x left bottom;
 		text-align: center;
 		box-sizing: border-box;
