@@ -147,6 +147,7 @@
 		width: auto;
 		margin: 0 auto;
 		padding:10px 30px;
+		border: none;
 		border-radius: 0px 8px 0px 8px;
 		background: #000;
 		background-image: url(../images/arrow_right.gif);
@@ -407,6 +408,7 @@
 	}
 
 	label span {
+		margin-left: 9px;
 		padding: 3px 10px;
 		border-radius: 7px;
 		background-color: #000;

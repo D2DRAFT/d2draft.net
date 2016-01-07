@@ -36,7 +36,7 @@ form:
 
         - name: email
           label: メールアドレス
-          type: email
+          type: text
           validate:
             required: true
             
