@@ -578,6 +578,15 @@
 
 /* for max-width 640px */
 	@media only screen and (max-width: 640px) {
+		h2 {
+			font-size: 250%;
+		}
+
+		h3,
+		#about p.conspicuous {
+			font-size: 160%;
+		}
+
 		#events dl {
 			max-width: 100%;
 			margin-top: 49px;
