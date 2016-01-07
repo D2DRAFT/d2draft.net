@@ -147,6 +147,7 @@
 		width: auto;
 		margin: 0 auto;
 		padding:10px 30px;
+		border: none;
 		border-radius: 0px 8px 0px 8px;
 		background: #000;
 		background-image: url(../images/arrow_right.gif);
@@ -407,6 +408,7 @@
 	}
 
 	label span {
+		margin-left: 9px;
 		padding: 3px 10px;
 		border-radius: 7px;
 		background-color: #000;
@@ -576,6 +578,15 @@
 
 /* for max-width 640px */
 	@media only screen and (max-width: 640px) {
+		h2 {
+			font-size: 250%;
+		}
+
+		h3,
+		#about p.conspicuous {
+			font-size: 160%;
+		}
+
 		#events dl {
 			max-width: 100%;
 			margin-top: 49px;
