@@ -129,6 +129,13 @@
 		word-break: break-all;
 	}
 
+	.message {
+		width: 70%;
+		margin: 45px auto;
+		font-size: 200%;
+		text-align: center;
+	}
+
 	h3 {
 		margin-bottom: 32px;
 		font-size: 180%;
