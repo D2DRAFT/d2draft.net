@@ -75,7 +75,7 @@ form:
               - "{{ form.value.email }}"
             subject: "[D2DRAFT へのお問い合わせ] {{ form.value.name|e }}"
             body: "{% include 'forms/data.html.twig' %}"
-        - display: '/home/thankyou/default.md'
+        - display: '/home/thankyou'
 ---
 
 ![気なること、本当に知りたいこと。ここにあります。](main_image.jpg)
