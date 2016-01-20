@@ -11,10 +11,10 @@
         {% endif %}
         {% if page.header.more %}
             {% for more in page.header.more %}
-            <a class="btn more" href="{{ more.url }}">{{ more.text }}</a>
+            <a class="btn more external" href="{{ more.url }}">{{ more.text }}<img src="{{ theme_url }}/images/icon_external.png" alt="別サイトに移動します。"></a>
             {% endfor %}
         {% endif %}
-        <p class="action_btn"><a href="https://d2draft.doorkeeper.jp/events/past"><span>過去の活動はこちら</span></a></p>
+        <p class="action_btn"><a href="https://d2draft.doorkeeper.jp/events/past"><span class="external">過去の活動はこちら<img src="{{ theme_url }}/images/icon_external.png" alt="別サイトに移動します。"></span></a></p>
     </div>
     {% if page.header.reports %}
     <h3>レポート</h3>
