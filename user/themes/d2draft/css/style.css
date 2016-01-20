@@ -129,6 +129,12 @@
 		word-break: break-all;
 	}
 
+	.external img {
+		margin-top: -6px;
+		margin-left: 5px;
+		vertical-align: middle;
+	}
+
 	.message {
 		width: 70%;
 		margin: 45px auto;
@@ -153,7 +159,7 @@
 		clear: both;
 		width: auto;
 		margin: 0 auto;
-		padding:10px 30px;
+		padding:10px 38px;
 		border: none;
 		border-radius: 0px 8px 0px 8px;
 		background: #000;
@@ -161,7 +167,7 @@
 		background-position: 90% 50%;
 		background-repeat: no-repeat;
 		color: #ffffff;
-		font-size: 22px;
+		font-size: 130%;
 		text-decoration: none;
 	}
 
@@ -283,11 +289,6 @@
 		border-radius: 0 10px 0 0;
 	}
 
-	.nav_external img {
-		margin-left: 5px;
-		vertical-align: middle;
-	}
-
 	.action_intro {
 		position: relative;
 		width: 100%;
@@ -318,6 +319,7 @@
 
 	.more {
 		float: right;
+		padding: 10px 38px 10px 21px;
 	}
 
 	.action_btn {
@@ -330,7 +332,7 @@
 		margin: 150px auto 0;
 		padding: 18px 0 0 ;
 		background: url(../images/bg_concretely_t.png) no-repeat top center;
-		text-align: center;
+		text-align: left;
 		text-decoration: none;
 		font-size: 145%;
 	}
@@ -345,7 +347,7 @@
 		display: block;
 		width: 100%;
 		margin-top: -6px;
-		padding: 5px 226px 30px;
+		padding: 5px 202px 30px;
 		background: url(../images/bg_concretely_b.png) no-repeat bottom center;
 	}
 
@@ -530,9 +532,11 @@
 			}
 
 			.action_btn a{
-				width: 280px;
+				width: 301px;
 				padding: 24px 0 0;
 				background: url(../images/bg_concretely_t_s.png) no-repeat top center;
+				text-align: center;
+				font-size: 135%;
 			}
 
 			.action_btn a:hover,
@@ -542,7 +546,7 @@
 
 			.action_btn a > span {
 				margin-top: -9px;
-				padding: 0 20px 20px 0;
+				padding: 0 15px 20px 10px;
 				background: url(../images/bg_concretely_b_s.png) no-repeat bottom center;
 				line-height: 1.9;
 			}
@@ -585,31 +589,53 @@
 
 /* for max-width 640px */
 	@media only screen and (max-width: 640px) {
-		h2 {
-			font-size: 250%;
-		}
+			h2 {
+				font-size: 250%;
+			}
 
-		h3,
-		#about p.conspicuous {
-			font-size: 160%;
-		}
+			h3,
+			#about p.conspicuous {
+				font-size: 160%;
+			}
 
-		#events dl {
-			max-width: 100%;
-			margin-top: 49px;
-		}
+			.action_btn a{
+				width: 260px;
+				background: url(../images/bg_concretely_t_ss.png) no-repeat top center;
+				text-align: center;
+				font-size: 127%;
+			}
 
-		#events dt {
-			width: 100%;
-		}
+			.action_btn a:hover,
+			.action_btn a:focus {
+				background: url(../images/bg_concretely_t_ss_h.png) no-repeat top center;
+			}
 
-		#events dd {
-			width: 100%;
-			padding-left: 0;
-		}
+			.action_btn a > span {
+				padding: 0 20px 20px 10px;
+				background: url(../images/bg_concretely_b_ss.png) no-repeat bottom center;
+			}
+
+			.action_btn a:hover > span,
+			.action_btn a:focus > span {
+				background: url(../images/bg_concretely_b_ss_h.png) no-repeat bottom center;
+			}
+
+			#events dl {
+				max-width: 100%;
+				margin-top: 49px;
+			}
+
+			#events dt {
+				width: 100%;
+			}
+
+			#events dd {
+				width: 100%;
+				padding-left: 0;
+			}
 		
-		.github {
-			width: 25%;
-		}
+			.github {
+				width: 25%;
+			}
 		
 	}
