@@ -6,6 +6,8 @@
             class="{{ field.classes|default('input') }}" 
             {# required attribute structures #} 
             name="{{ (scope ~ field.name)|fieldName }}" 
+            id="{{ field.name }}" 
+            data-validation-error-msg-container="#validation_message_{{ field.name }}" 
             {# input attribute structures #}
             {% block input_attributes %} 
                 {% if field.classes is defined %}class="{{ field.classes }}" {% endif %}
@@ -19,9 +21,11 @@
                 {% if field.autocomplete in ['on', 'off'] %}autocomplete="{{ field.autocomplete }}" {% endif %}
                 {% if field.validate.required in ['on', 'true', 1] %}required="required" {% endif %}
                 {% if field.validate.pattern %}pattern="{{ field.validate.pattern }}" {% endif %}
-                {% if field.validate.message %}title="{% if grav.twig.twig.filters['tu'] is defined %}{{ field.validate.message|e|tu }}{% else %}{{ field.validate.message|e|t }}{% endif %}" {% endif %}
+                {% if field.validate.message %}data-validation-error-msg="{% if grav.twig.twig.filters['tu'] is defined %}{{ field.validate.message|e|tu }}{% else %}{{ field.validate.message|e|t }}{% endif %}" {% endif %}
                 {% if field.rows is defined %}rows="{{ field.rows }}" {% endif %}
                 {% if field.cols is defined %}cols="{{ field.cols }}" {% endif %}
             {% endblock %}>{{ value|trim|e('html') }}</textarea>
+        {# jQuery Form Validator #}
+        <span id="validation_message_{{ field.name }}" class="error-alert" role="alert"></span>
     </div>
 {% endblock %}

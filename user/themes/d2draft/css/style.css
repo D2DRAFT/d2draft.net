@@ -71,12 +71,15 @@
 	a:focus {
 		outline: 1px dotted #000000;
 	}
+	
+	form > div {
+		margin-bottom: 27px;
+	}
 
 	input,
 	textarea {
 		display: block;
 		width: 50%;
-		margin-bottom: 27px;
 		padding: 6px;
 		border: 1px solid #000000;
 	}
@@ -99,6 +102,15 @@
 	textarea:focus {
 		border: 1px solid #92929a;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) inset, 0 0 8px rgba(146, 146, 154, 0.6);
+	}
+	
+	input.error {
+		background: #FDE4F1;
+		border: 1px solid #E5007D;
+	}
+	
+	span.error-alert {
+		color: #E5007D;
 	}
 
 	ul li {

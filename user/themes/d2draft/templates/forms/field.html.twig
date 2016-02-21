@@ -15,6 +15,7 @@
                     name="{{ (scope ~ field.name)|fieldName }}" 
                     value="{{ value|e('html_attr')|join(', ') }}" 
                     id="{{ field.name }}" 
+                    data-validation-error-msg-container="#validation_message_{{ field.name }}" 
                     {# input attribute structures #} 
                     {% block input_attributes %} 
                         {% if field.classes is defined %}class="{{ field.classes }}" {% endif %}
@@ -28,9 +29,11 @@
                         {% if field.autocomplete in ['on', 'off'] %}autocomplete="{{ field.autocomplete }}" {% endif %}
                         {% if field.validate.required in ['on', 'true', 1] %}required="required" {% endif %}
                         {% if field.validate.pattern %}pattern="{{ field.validate.pattern }}" {% endif %}
-                        {% if field.validate.message %}title="{{ field.validate.message|e|t }}" 
+                        {% if field.validate.message %}data-validation-error-msg="{{ field.validate.message|e|t }}" 
                         {% elseif field.title is defined %}title="{{ field.title|e|t }}" {% endif %}
                     {% endblock %}>
+                    {# jQuery Form Validator #}
+                    <span id="validation_message_{{ field.name }}" class="error-alert" role="alert"></span>
             {% endblock %}
         {% endblock %}
     {% endblock %}

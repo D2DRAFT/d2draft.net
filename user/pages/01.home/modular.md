@@ -33,12 +33,14 @@ form:
           type: text
           validate:
             required: true
+            message: お名前は必須項目です。必ず入力してください。
 
         - name: email
           label: メールアドレス
-          type: text
+          type: email
           validate:
             required: true
+            message: メールアドレスは必須項目です。正しい形式のメールアドレスを入力してください。
             
         - name: address
           label: ご住所
@@ -62,6 +64,7 @@ form:
           type: textarea
           validate:
             required: true
+            message: お問合せ内容は必須項目です。必ず入力してください。
 
     buttons:
         - type: submit

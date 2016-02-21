@@ -1,6 +1,17 @@
 ﻿<footer role="contentinfo">
     <small>&copy;D2DRAFT.</small>
 </footer>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
+<script>
+$.validate({
+    modules: 'html5',
+    onElementValidate : function(valid, $el, $form, errorMess) {
+        $el.attr('aria-invalid', (valid ? 'false' : 'true'));
+    },
+    borderColorOnError: false
+});
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
