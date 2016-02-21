@@ -60,7 +60,6 @@ form:
         
         - name: inquiry_content
           label: お問合せ内容
-          id: inquiry_content
           type: textarea
           validate:
             required: true
