@@ -26,6 +26,6 @@
                 {% if field.cols is defined %}cols="{{ field.cols }}" {% endif %}
             {% endblock %}>{{ value|trim|e('html') }}</textarea>
         {# jQuery Form Validator #}
-        <span id="validation_message_{{ field.name }}" class="error-alert" role="alert"></span>
+        <span id="validation_message_{{ field.name }}" class="error-alert" role="alert" aria-atomic="true" aria-live="assertive" tabindex="-1"></span>
     </div>
 {% endblock %}

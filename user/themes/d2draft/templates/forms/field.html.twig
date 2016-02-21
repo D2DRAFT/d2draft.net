@@ -33,7 +33,7 @@
                         {% elseif field.title is defined %}title="{{ field.title|e|t }}" {% endif %}
                     {% endblock %}>
                     {# jQuery Form Validator #}
-                    <span id="validation_message_{{ field.name }}" class="error-alert" role="alert"></span>
+                    <span id="validation_message_{{ field.name }}" class="error-alert" role="alert" aria-atomic="true" aria-live="assertive" tabindex="-1"></span>
             {% endblock %}
         {% endblock %}
     {% endblock %}
