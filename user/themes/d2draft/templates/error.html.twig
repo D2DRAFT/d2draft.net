@@ -2,9 +2,7 @@
 
 {% block content %}
     <div id="error" class="message">
-        <div>
-            <h1>Error {{ page.header.http_response_code }}</h1>
+            <h2>Error {{ page.header.http_response_code }}</h2>
                 {{ page.content|t }}
-        </div>
     </div>
 {% endblock %}

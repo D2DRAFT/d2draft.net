@@ -106,12 +106,13 @@
 	
 	input.error,
 	textarea.error {
-		background: #FDE4F1;
-		border: 1px solid #E5007D;
+		background: #fde4f1;
+		border: 1px solid #e5007d;
 	}
 	
-	span.error-alert {
-		color: #E5007D;
+	span.error-alert,
+	.alert {
+		color: #e5007d;
 	}
 
 	ul li {
