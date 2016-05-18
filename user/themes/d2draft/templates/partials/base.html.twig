@@ -6,11 +6,9 @@
     {% for ogp in page.header.ogp %}
     <meta property="{{ ogp.property }}" content="{% if ogp.property == 'og:image' %}{{ uri.base }}{{ page.media[ogp.content].url }}{% else %}{{ ogp.content }}{% endif %}" />
     {% endfor %}
-    {% if header.description %}
-    <meta name="description" content="{{ header.description }}">
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-    {% endif %}
+    {% for meta in page.metadata %}
+        <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
+    {% endfor %}
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
     {% block stylesheets %}
