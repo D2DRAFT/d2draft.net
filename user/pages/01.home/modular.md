@@ -12,7 +12,9 @@ content:
             - _inquiry
             
 title: D2DRAFT "Dev &amp; Design Draft"
-description: ウェブのテクニカルな内容とデザイン的な内容を横断した、特定のプロダクトや技術に限定しない勉強会シリーズです。
+
+metadata:
+  description: ウェブのテクニカルな内容とデザイン的な内容を横断した、特定のプロダクトや技術に限定しない勉強会シリーズです。
 
 ogp:
     - property: 'og:title'
@@ -77,7 +79,7 @@ form:
               - "{{ form.value.email }}"
             subject: "[D2DRAFT へのお問い合わせ] {{ form.value.name|e }}"
             body: "{% include 'forms/data.html.twig' %}"
-        - display: '/home/thankyou'
+        - redirect: '/thanks'
 ---
 
 ![気なること、本当に知りたいこと。ここにあります。](main_image.jpg)
