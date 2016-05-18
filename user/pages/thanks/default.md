@@ -7,4 +7,4 @@ metadata:
 
 <p class="message">お問い合わせありがとうございました。</p>
 
-[トップページに戻る](/)
+[トップページに戻る](http://d2draft.net/)
