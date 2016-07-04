@@ -2,10 +2,10 @@
 title: イベント
 id: events
 thumbnails:
-    - src: img_d2dstudy_0211.png
+    - src: img_d2dstudy_160723.png
       alt: イベントの様子
 more:
-    - url: https://d2draft.doorkeeper.jp/events/43244
+    - url: https://d2draft.doorkeeper.jp/events/48325
       text: 詳細はこちら
 reports:
     - date: 2016/04/14
@@ -26,9 +26,9 @@ reports:
 
 ---
 
-### 第3回 D2D 飲みながらコードを書く会
+### 第2回 D2D WEBグラフィックツール ～デザインワークフローの転換～
 
-2016年5月21日 土曜日 13時 ～ 17時  
-会場:TAM Coworking
+2016年7月23日 土曜日 13時 ～ 17時30分
+会場:OBPアカデミア
 
-Web業界でお仕事をしている方なら誰でも参加できます！飲みながらコードを書き、ほろ酔い気分で交流を図ります。お酒もコードも楽しめるもくもく会（語り多め）です。
+D2Dで京都で行った１回目に行った結果、大阪でもやって欲しいと数人から声をかけられ調子に乗って2回目を大阪で行います。内容は前回と続きではなくはじめて参加されても大丈夫です。
