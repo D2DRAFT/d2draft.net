@@ -12,8 +12,17 @@ reports:
       url: http://www.cherrypieweb.com/weblog/technical/20160408021931.php
       title: 第1回 D2D WEBグラフィックツール今昔 ～デザインワークフローの転換～ でお話してきました
     - date: 2016/04/05
+      url: http://onocom.net/blog/%E5%8B%89%E5%BC%B7%E4%BC%9A%E7%AC%AC1%E5%9B%9E-d2d-web%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%84%E3%83%BC%E3%83%AB%E4%BB%8A%E6%98%94-%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97/
+      title: [勉強会]第1回 D2D WEBグラフィックツール今昔 に参加してきました
+    - date: 2016/04/05
       url: http://www.pictron.net/2016/04/05/webdesign-workflow-vol1/
       title: D2D WEBグラフィックツール今昔 デザインワークフローの転換 v1.0 Note 2016/4/2（土）
+    - date: 2016/04/04
+      url: http://hatsuka.info/design/1254
+      title: ワークフローについて考える
+    - date: 2016/04/03
+      url: http://blog.rokuzeudon.com/entry/d2draft_design_tools
+      title: D2D「WEBグラフィックツール今昔〜デザインワークフローの転換～」に参加してきました
     - date: 2015/12/01
       url: http://white-stage.com/article.php/d2daccessibility7-2nd
       title: オマケ会 D2D アクセシビリティ勉強会でアクセシブルなCSSを学ぶ
