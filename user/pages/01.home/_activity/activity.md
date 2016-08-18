@@ -2,12 +2,15 @@
 title: イベント
 id: events
 thumbnails:
-    - src: img_d2dstudy_160723.png
+    - src: img_d2dstudy.png
       alt: イベントの様子
 more:
     - url: https://d2draft.doorkeeper.jp/events/48325
       text: 詳細はこちら
 reports:
+    - date: 2016/08/01
+      url: http://www.pictron.net/2016/08/01/webdesign-workflow-vol2/
+      title: D2D WEBグラフィックツール デザインワークフローの転換 v2.0 Note 2016/7/23（土）
     - date: 2016/04/14
       url: http://www.cherrypieweb.com/weblog/technical/20160408021931.php
       title: 第1回 D2D WEBグラフィックツール今昔 ～デザインワークフローの転換～ でお話してきました
@@ -20,24 +23,12 @@ reports:
     - date: 2016/04/04
       url: http://hatsuka.info/design/1254
       title: ワークフローについて考える
-    - date: 2016/04/03
-      url: http://blog.rokuzeudon.com/entry/d2draft_design_tools
-      title: D2D「WEBグラフィックツール今昔〜デザインワークフローの転換～」に参加してきました
-    - date: 2015/12/01
-      url: http://white-stage.com/article.php/d2daccessibility7-2nd
-      title: オマケ会 D2D アクセシビリティ勉強会でアクセシブルなCSSを学ぶ
-    - date: 2015/11/30
-      url: http://codingmania.net/blog/%E3%82%AA%E3%83%9E%E3%82%B1%E5%9B%9E-d2d-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%E5%8B%89%E5%BC%B7%E4%BC%9A%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A%E3%83%A1%E3%83%A2
-      title: オマケ回 D2D アクセシビリティ勉強会振り返りメモ！
-    - date: 2015/11/23
-      url: http://blog.mismithportfolio.com/web/20151123d2d
-      title: 【イベントレポ】オマケ会 D2D アクセシビリティ勉強会 ～アクセシブルなCSSもやっとこう～に参加しました #d2draft
 
 ---
 
-### 第2回 D2D WEBグラフィックツール ～デザインワークフローの転換～
+### D2D アクセシビリティ勉強会 2016
 
-2016年7月23日 土曜日 13時 ～ 17時30分
-会場:OBPアカデミア
+2016年9月22日 木曜日 13時30分 ～ 17時30分
+会場:サイボウズ大阪オフィス セミナールーム
 
-D2Dで京都で行った１回目に行った結果、大阪でもやって欲しいと数人から声をかけられ調子に乗って2回目を大阪で行います。内容は前回と続きではなくはじめて参加されても大丈夫です。
+去年の復習も兼ねつつ、新しくなったJISをチェーック！勿論、初めての方も歓迎です！
