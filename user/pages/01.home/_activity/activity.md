@@ -2,10 +2,10 @@
 title: イベント
 id: events
 thumbnails:
-    - src: img_d2dstudy.png
+    - src: img_d2dstudy_20151130.png
       alt: イベントの様子
 more:
-    - url: https://d2draft.doorkeeper.jp/events/48325
+    - url: https://d2draft.doorkeeper.jp/events/50588
       text: 詳細はこちら
 reports:
     - date: 2016/08/01
@@ -28,7 +28,7 @@ reports:
 
 ### D2D アクセシビリティ勉強会 2016
 
-2016年9月22日 木曜日 13時30分 ～ 17時30分
+2016年9月22日 木曜日 13時30分 ～ 17時30分  
 会場:サイボウズ大阪オフィス セミナールーム
 
 去年の復習も兼ねつつ、新しくなったJISをチェーック！勿論、初めての方も歓迎です！
