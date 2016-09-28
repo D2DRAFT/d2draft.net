@@ -8,6 +8,9 @@ more:
     - url: https://d2draft.doorkeeper.jp/events/50588
       text: 詳細はこちら
 reports:
+    - date: 2016/09/27
+      url: https://white-stage.com/article.php/d2daccessibility2016
+      title: D2D アクセシビリティ勉強会2016を開催しました。
     - date: 2016/08/01
       url: http://www.pictron.net/2016/08/01/webdesign-workflow-vol2/
       title: D2D WEBグラフィックツール デザインワークフローの転換 v2.0 Note 2016/7/23（土）
@@ -20,9 +23,6 @@ reports:
     - date: 2016/04/05
       url: http://www.pictron.net/2016/04/05/webdesign-workflow-vol1/
       title: D2D WEBグラフィックツール今昔 デザインワークフローの転換 v1.0 Note 2016/4/2（土）
-    - date: 2016/04/04
-      url: http://hatsuka.info/design/1254
-      title: ワークフローについて考える
 
 ---
 
