@@ -5,7 +5,7 @@ thumbnails:
     - src: img_d2dstudy20160922.png
       alt: イベントの様子
 more:
-    - url: https://d2draft.doorkeeper.jp/events/52557
+    - url: https://d2draft.doorkeeper.jp/events/57069
       text: 詳細はこちら
 reports:
     - date: 2016/09/27
