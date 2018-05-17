@@ -5,7 +5,7 @@ thumbnails:
     - src: img_d2dstudy20160922.png
       alt: イベントの様子
 more:
-    - url: https://d2draft.doorkeeper.jp/events/57069
+    - url: https://d2draft.doorkeeper.jp/events/74582
       text: 詳細はこちら
 reports:
     - date: 2017/02/09
@@ -27,9 +27,9 @@ reports:
 
 ---
 
-### D2D アクセシビリティ勉強会　～WAI-ARIAでアクセシブルにしてみよう～
+### D2D アクセシビリティ勉強会 2018年・夏
 
-2017年3月5日 日曜日 14時 ～ 18時  
-会場: サイボウズ大阪オフィス セミナールーム
+2018年7月1日 日曜日 14時 ～ 16時  
+会場: JUSO Coworking 1F 
 
-「アクセシビリティ」を語るより実際にやってみよう！な勉強会2017バージョンです。
+D2DRAFTプレゼンツ、アクセシビリティについて気軽に学んでみよう！シリーズ、2018年夏は座学中心にお届けします。
