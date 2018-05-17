@@ -2,7 +2,7 @@
 title: イベント
 id: events
 thumbnails:
-    - src: img_d2dstudy20160922.png
+    - src: img_d2dstudy20170209.png
       alt: イベントの様子
 more:
     - url: https://d2draft.doorkeeper.jp/events/74582
