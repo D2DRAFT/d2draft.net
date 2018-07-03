@@ -8,6 +8,12 @@ more:
     - url: https://d2draft.doorkeeper.jp/events/74582
       text: 詳細はこちら
 reports:
+    - date: 2018/07/03
+      url: https://white-stage.com/article.php/d2daccessibility2018
+      title: D2D アクセシビリティ勉強会 2018年・夏を開催しました。
+    - date: 2018/07/02
+      url: https://codingmania.net/blog/d2d20180701
+      title: D2D アクセシビリティ勉強会 2018年・夏に参加してきました！
     - date: 2017/02/09
       url: https://white-stage.com/article.php/d2daccessibility2017
       title: D2D アクセシビリティ勉強会 ～WAI-ARIAでアクセシブルにしてみよう～を開催しました。
@@ -17,12 +23,6 @@ reports:
     - date: 2016/09/24
       url: https://sponge-design.goat.me/3ATZKmoK
       title: D2D アクセシビリティ勉強会 2016 に参加しました
-    - date: 2016/09/18
-      url: http://www.cherrypieweb.com/weblog/technical/20160918164136.php
-      title: 第2回「D2D WEBグラフィックツール デザインワークフローの転換」に参加してきました
-    - date: 2016/08/01
-      url: http://www.pictron.net/2016/08/01/webdesign-workflow-vol2/
-      title: D2D WEBグラフィックツール デザインワークフローの転換 v2.0 Note 2016/7/23（土）
 
 
 ---
