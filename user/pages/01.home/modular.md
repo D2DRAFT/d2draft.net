@@ -22,5 +22,6 @@ ogp:
       content: http://d2draft.net/
     - property: 'og:image'
       content: d2dogp.png
+---
 
 ![気なること、本当に知りたいこと。ここにあります。](main_image.jpg)
